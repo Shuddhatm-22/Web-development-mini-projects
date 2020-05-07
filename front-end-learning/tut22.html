@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: springgreen;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        .btn{
+            /* color: rgb(247, 232, 26); */
+            background-color: rgb(240, 88, 119);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: darkgoldenrod;
+            /* font-family: fantasy; */
+
+            background-color: darkgreen;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            /* background-color: darkcyan; */
+        }
+        a:hover{
+            /* color: rgb(0, 0, 0); */
+            background-color:rgb(233, 16, 16);
+        }
+        a:visited{
+            background-color: rgb(207, 210, 30);
+
+        }
+        a:active{
+            background-color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi corporis accusantium nihil delectus mollitia autem ea eius voluptatibus sequi quae asperiores itaque odio, est maiores maxime magnam quasi, officiis deserunt dolorem quas! Amet, commodi.</p>
+        <a href="https://linkedin.com" class="btn">REad more</a>
+        <button class="btn">Contact Us</button>
+    </div>
+    
+</body>
+</html>

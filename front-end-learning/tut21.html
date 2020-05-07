@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            font-size: larger;
+            font-family: 'Indie Flower', cursive;
+        }
+        .container{
+            width: 900px;
+            border: 5px solid rgba(231, 32, 65, 0.877);
+            background-color: salmon;
+            margin: 33px auto;
+
+        }
+        .item{
+            border: 2px solid rgb(219, 74, 74);
+            margin: 12px 3px;
+            padding: 12px 13px;
+            background-color: rgb(255, 173, 173);
+
+        }
+        #fruits{
+            float: left;
+            width: 50%;
+
+        }
+        #computer{
+            float: left;
+            width: 50%;
+
+        }
+        #stationary{
+            /* float: left; */
+            clear: both;
+            width: 100%;
+
+        }
+        p,h3{
+            /* text-align: justify; */
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+         <h1>
+        Welcome to my Store
+    </h1>
+        <div id="fruits" class="item">
+            <p id="fruitspara" class="para">
+                <h3>Fruits</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci ipsum consectetur, similique tempora reprehenderit molestiae asperiores quod inventore fugiat, velit ratione in debitis quia iure ut sunt delectus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est debitis doloremque ex, voluptate ad harum sapiente odit impedit atque quas minima eius maxime voluptas ipsa sint nostrum ut aut porro!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <p id="computerpara" class="para">
+                <h3>Computer</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci ipsum consectetur, similique tempora reprehenderit molestiae asperiores quod inventore fugiat, velit ratione in debitis quia iure ut sunt delectus nemo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cum maiores distinctio repellendus, dolor totam quibusdam impedit debitis error velit vel sapiente eum, veniam tempore officia atque? Nisi, eius veritatis.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <p id="stationarypara" class="para">
+                <h3>Stationary</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci ipsum consectetur, similique tempora reprehenderit molestiae asperiores quod inventore fugiat, velit ratione in debitis quia iure ut sunt delectus nemo.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

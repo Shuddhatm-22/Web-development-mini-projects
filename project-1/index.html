@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chamko Laundary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body{
+            font-family: 'Indie Flower', cursive;
+    font-family: 'Luckiest Guy', cursive;
+            color: rgba(0, 0, 0, 0.945);
+            margin: 0px;
+            padding: 0px;
+            background: url('img/clothes-166848_1920.jpg');
+            height: 1200px;
+        }
+        .left{
+            
+            font-size: medium;
+            color: rgb(235, 217, 137);
+            position: absolute;
+            left:66px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+        }
+        .left div{
+            line-height: 9px;
+            color: cornsilk;
+            font-size: 27px;
+
+        }
+        .left img{
+            width: 102px;
+            margin: 22px;
+        }
+        .mid{
+            border-radius: 20px;
+            display: block;
+            margin: 20px auto;
+            width: 50%;
+            background-color:rgb(255, 238, 1);
+            border: 2px solid rgb(10, 10, 10);
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: black;
+            text-decoration: none;
+            padding: 45px 11px;
+            
+        }
+        .navbar li a:hover, .navbar li a:active{
+            
+            text-decoration: underline;
+            color: rgb(255, 102, 0);
+            
+        }
+        .btn{
+            font-family: 'Indie Flower', cursive;
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 6px 11px;
+            border: 2px solid rgb(15, 15, 15);
+            margin: 15px 9px;
+            color: rgb(16, 8, 44);
+            background-color:rgb(255, 238, 1);
+            border-radius: 10px;
+            cursor: pointer;
+            
+
+        }
+        .btn:hover{
+
+            background-color:rgb(255, 166, 0);
+        }
+        .container{
+            text-align: center;
+            background-color: rgb(121, 189, 235);
+            color: rgb(31, 27, 27);
+            border: 2px solid rgb(2, 2, 2);
+            margin: 166px auto;
+            padding: 19px 14px;
+            width: 53%;
+            border-radius: 24px;
+        }
+        .form-group input{
+            font-family: 'Indie Flower', cursive;
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 9px;
+            border: 2px solid black;
+            margin: 7px auto;
+            font-size: 18px;
+            border-radius: 15px;
+
+
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+
+            display: block;
+        width: 37%;
+        margin: 14px auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/clothes-1295863_1280.png" alt="">
+            <div>Chamko Laundary</div>
+            
+       </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Laundary Rate</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">
+                E mail-Us
+            </button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Best Laundary in your College Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Block">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Room No">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your College">
+                
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
